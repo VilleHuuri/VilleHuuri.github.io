@@ -546,3 +546,21 @@ body.lb-open { overflow: hidden; }
   .nav { gap: 0.55rem; }
   .nav a { font-size: 0.68rem; letter-spacing: 0.03em; }
 }
+
+.nav a[aria-current="page"] { color: var(--gold-bright); }
+
+.gallery.has-captions figcaption {
+  position: static;
+  opacity: 1;
+  background: none;
+  padding: 0.45rem 0.05rem 0.1rem;
+  color: var(--ink-dim);
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+}
+
+.page-lead-link {
+  margin: 1.25rem 0 0;
+}
+
+.page-lead-link a { font-weight: 600; }
